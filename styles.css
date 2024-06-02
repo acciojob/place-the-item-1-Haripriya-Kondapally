@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
-.holder{
+.item{
 	width:100px;
 	height:100px;
 	background-color:green;
@@ -9,9 +9,9 @@
 	flex-direction:row;
 	flex:1;
 	margin:10px;
-	
+	flex-wrap:nowrap;
 	justify-content:space-between;
 }
-#container{
+.holder{
 	display:flex;
 }
