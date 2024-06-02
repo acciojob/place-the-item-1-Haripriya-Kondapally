@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.container1{
+	width:100px;
+	height:100px;
+	background-color:green;
+	display:flex;
+	font-weight:900;
+	flex-direction:row;
+	flex:1;
+	margin:10px;
+	
+	justify-content:space-between;
+}
+#container{
+	display:flex;
+}
